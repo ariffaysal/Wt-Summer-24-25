@@ -78,9 +78,9 @@
 
             <tr>
                 <td>Gender:</td> 
-                 <td><input type="radio">MALE</td>
-                 <td><input type="radio">FEMALE</td>
-                 <td><input type="radio" >OTHERS</td>
+                 <td><input type="radio" value="des"> MALE</td>
+                 <td><input type="radio" value ="des">FEMALE</td>
+                 <td><input type="radio" value="des" >OTHERS</td>
             </tr>
 
             <tr>
