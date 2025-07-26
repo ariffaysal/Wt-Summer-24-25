@@ -2,19 +2,36 @@
 
 
 <style>
-    h1{
+    h1{     
+        color:"black"; 
+        font-family: 'Arial', sans-serif;  
+        font-size: 30px; 
+        text-align: center;
+        margin-top: 20px;
+
+
        
-        font-family: 'Times New Roman', Times, serif;
+        
 
     }
 
     h2{
+        color: "black";
+        font-family: 'Arial', sans-serif;
+        font-size: 25px;
+        text-align: center;
+        margin-top: 10px;
      
     }
 
     p{
-        height: 20;
-        width: 10;
+        color: "black";
+        font-family: 'Arial', sans-serif;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 5px;
+        font-style: italic;
+    
         
     }
 
