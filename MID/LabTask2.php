@@ -31,17 +31,21 @@
         text-align: center;
         margin-top: 5px;
         font-style: italic;
-    
+     
         
     }
 
     div{
 
+        
     }
 
 
     body{
         background-color: skyblue;
+        front-family: 'Arial', sans-serif;
+        margin: 0;
+    
     }
 </style>
 
@@ -49,13 +53,13 @@
 
 <html>
     <body>
-        <center>
+    
             
         <title>Bank Management </title>
         <h1> This Is AIUB Bank Management System</h1>
         <h2>Quick Registration form </h2>
         <p>where leaders are created</p>
-        </center>
+        
         
         
         
