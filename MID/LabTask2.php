@@ -121,7 +121,9 @@
                 <td> Upload Identity Photo:</td> <td><input type="image" value="choose file"></td>
             </tr>
             
-
+            <tr>
+                <td><input type="radio">Agreed with terms and conditions</td>
+            </tr>
 
             <tr>
                 <td><input type="submit" value="Submit"></td>
