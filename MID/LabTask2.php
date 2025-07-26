@@ -116,6 +116,10 @@
             <tr>
                 <td>Confirm password:</td><td><input type="password"></td>
             </tr>
+
+            <tr>
+                <td> Upload Identity Photo:</td> <td><input type="image" value="choose file"></td>
+            </tr>
             
 
 
