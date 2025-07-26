@@ -92,7 +92,7 @@
 
             <tr>
                 <td> Account type:</td>
-                   <td><input type="radio" >credit</td>
+                   <td><input type="radio" >credit</td> 
                    <td><input type="radio">debit</td>
             </tr>
 
