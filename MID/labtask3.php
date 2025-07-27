@@ -60,10 +60,8 @@
     <body>
     
             
-        <title>Bank Management </title>
-        <h1> This Is AIUB Bank Management System</h1>
-        <h2>Quick Registration form </h2>
-        <p>where leaders are created</p>
+        <title>Student</title>
+        <h1> This Is AIUB Student System</h1>
 
         <script>
             alert("Welcome to AIUB Bank Management System");
@@ -72,9 +70,63 @@
             document.body.style.backgroundColor = "lightblue";
             document.body.style.color = "black";
             document.body.style.fontFamily = "'Arial', sans-serif";
-            document.body.style.textAlign = "center";      
+
+
+
+
+            //////////////////////////  txt file   picture
+
+function info(){
+                 console.log("Students Information");
+                var name = "Arif";
+                var age = 23;
+                var isStudent = true;
+                console.log("Name:", name);
+                console.log("Age:", age);
+                console.log("Is Student?", isStudent);
+}
+
+                console.log("\n Mathmetical Operations");
+                var a = 10;
+                var b = 3;
+                console.log("Addition:", a + b);
+                console.log("Subtraction:", a - b);
+                console.log("Multiplication:", a * b);
+                console.log("Division:", a / b);
+                console.log("Remainder:", a % b);
+              
             
-          
+                 console.log("\n LOOPS");
+                for (var i = 1; i <= 5; i++) {
+               console.log("Loop Count is: " + i);
+                }
+
+
+
+                 console.log("\n FUNCTIONS");
+
+    function greetUser(userName) {
+      console.log("Hello, " + userName + "!");
+    }
+
+    greetUser("Arif");
+    greetUser("Foysal");
+
+
+
+
+    function showMessage() {
+      alert("Information was saved successfully!");
+      console.log("Button was clicked.");
+    }
+
+     function showMessage2() {
+      alert("Information was saved successfully!");
+      console.log("name:" + name);
+
+      //console.log("Button was clicked.");
+      
+    }
 
 
         </script>
@@ -82,63 +134,24 @@
         
         <div>
             <table>
-            <tr>
-                <td>Enter Your Name:</td> <td> <input type="text" name="" id=""></td>
-            </tr>
-
-            <tr>
-                <td> DOB:</td> <td> <input type="date"></td>
-            </tr>
-
-            <tr>
-                <td>Gender:</td> 
-                 <td><input type="radio"name ="des"> MALE</td>
-                 <td><input type="radio" name ="des">FEMALE</td>
-                 <td><input type="radio" name="des" >OTHERS</td>
-            </tr>
-
-            <tr>
-                <td> Marital status:</td>
-                   <td><input type="radio" name="des" >married</td>
-                   <td><input type="radio" name="des">notmarried</td>
-            </tr>
+              
 
 
-            <tr>
-                <td> Account type:</td>
-                   <td><input type="radio"  name="des">credit</td> 
-                   <td><input type="radio" name="des">debit</td>
-            </tr>
-
-            <tr>
-                <td>Enter deposit ammount:</td> <td><input type="text"></td>
-            </tr>
-
-            <tr>
-                <td>Mobile number:</td><td><input type="text"></td>
-            </tr>
-
-            <tr>
-                <td>Email:</td><td><input type="email"></td>
-            </tr>
-            <tr>
-                <td>Address:</td><td><input type="text"></td>
-            </tr>
-            <tr>
-                <td>Enter password:</td><td><input type="password"></td>
-            </tr>
-            <tr>
-                <td>Confirm password:</td><td><input type="password"></td>
-            </tr>
             
 
-
-            <tr>
-                <td><input type="submit" value="Submit"></td>
-                <td><input type="reset" value="Reset"></td>
-            </tr>
+           
 
 
+            <br> <br>
+              <button onclick="showMessage()">Submit</button>
+            <br> <br>
+           
+
+
+            <br> <br>
+
+            <button onclick="info()"> showinfo</button>
+ <h5>Thank you for registering with us!</h5>
             </table>
         </div>
         
