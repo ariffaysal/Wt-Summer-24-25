@@ -93,15 +93,17 @@
 
                            
 
-
+                function math(){
                 console.log("\n Mathmetical Operations");
-                var a = 10;
-                var b = 3;
+                 var a = 10;
+                 var b = 3;
                 console.log("Addition:", a + b);
                 console.log("Subtraction:", a - b);
                 console.log("Multiplication:", a * b);
                 console.log("Division:", a / b);
                 console.log("Remainder:", a % b);
+                }
+
               
             
                  console.log("\n LOOPS");
@@ -142,6 +144,23 @@
       
     }
 
+    function showMessage3() {
+        let a = 10;
+        let b = 3;
+
+        let msg= "Mathmetical Equation!";
+        msg += "\nAddition: " + (a + b);
+        msg+= "\nSubtraction: " + (a - b);
+        msg += "\nMultiplication: " + (a * b);
+        msg += "\nDivision: " + (a / b);
+        msg += "\nRemainder: " + (a % b);
+
+        alert(msg);
+        console.log("Mathmetical Equation was shown.");
+
+
+    }
+
 
         </script>
         
@@ -162,7 +181,9 @@
 <p style="center">Information given throw console</p>
               <button onclick="showMessage()">Submit</button>
 
-            <button style="clicked" onclick="showMessage2()"> showinfo</button>
+            <button onclick="showMessage2()"> showinfo</button>
+            <button onclick="showMessage3()"> Mathmetical</button>
+            
  <h5>Thank you for registering with us!</h5>
  
             </table>
