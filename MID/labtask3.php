@@ -161,6 +161,50 @@
 
     }
 
+    function showMessage4() {
+        let a= 10;
+        let b= 20;
+        let c= 30;
+        let d= 60;
+        let e= 40;
+        avg = (a + b + c + d + e) / 5;
+
+          if (avg > 60) {
+                 console.log(name + " is Pass.");
+                 } else {
+                  console.log(name + " is Fail.");
+                 }
+                
+
+        let msg= "Showing the marks of the students";
+        msg+= "\nSubject a 1: " + a;
+        msg+= "\nSubject b: " + b;
+        msg+= "\nSubject c: " + c;
+        msg+= "\nSubject d: " + d;
+        msg+= "\nSubject e: " + e;
+        alert(msg);
+
+
+        console.log("Marks of the students were shown.");
+        
+        
+    }
+
+
+
+    function showMessage5() {
+
+    let msg="summary of the students";
+    msg += "\nName: " + name;
+    msg += "\nAge: " + age;
+    msg += "\nIs Student? " + isStudent;
+    
+    alert(msg);
+    console.log("Summary of the students was shown.");
+
+    }
+
+
 
         </script>
         
@@ -183,6 +227,7 @@
 
             <button onclick="showMessage2()"> showinfo</button>
             <button onclick="showMessage3()"> Mathmetical</button>
+            <button onclick="showMessage4()"> Result</button>
             
  <h5>Thank you for registering with us!</h5>
  
