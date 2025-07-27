@@ -198,7 +198,7 @@
     msg += "\nName: " + name;
     msg += "\nAge: " + age;
     msg += "\nIs Student? " + isStudent;
-    
+
     alert(msg);
     console.log("Summary of the students was shown.");
 
@@ -228,6 +228,7 @@
             <button onclick="showMessage2()"> showinfo</button>
             <button onclick="showMessage3()"> Mathmetical</button>
             <button onclick="showMessage4()"> Result</button>
+            <button onclick="showMessage5()">Summary</button>
             
  <h5>Thank you for registering with us!</h5>
  
