@@ -64,6 +64,19 @@
         <h1> This Is AIUB Bank Management System</h1>
         <h2>Quick Registration form </h2>
         <p>where leaders are created</p>
+
+        <script>
+            alert("Welcome to AIUB Bank Management System");
+            console.log("Welcome to AIUB Bank Management System");
+            document.write("Welcome to AIUB Bank Management System");
+            document.body.style.backgroundColor = "lightblue";
+            document.body.style.color = "black";
+            document.body.style.fontFamily = "'Arial', sans-serif";
+            document.body.style.textAlign = "center";
+          
+            
+
+        </script>
         
         
         <div>
@@ -78,22 +91,22 @@
 
             <tr>
                 <td>Gender:</td> 
-                 <td><input type="radio" value="des"> MALE</td>
-                 <td><input type="radio" value ="des">FEMALE</td>
-                 <td><input type="radio" value="des" >OTHERS</td>
+                 <td><input type="radio"name ="des"> MALE</td>
+                 <td><input type="radio" name ="des">FEMALE</td>
+                 <td><input type="radio" name="des" >OTHERS</td>
             </tr>
 
             <tr>
                 <td> Marital status:</td>
-                   <td><input type="radio" >married</td>
-                   <td><input type="radio">notmarried</td>
+                   <td><input type="radio" name="des" >married</td>
+                   <td><input type="radio" name="des">notmarried</td>
             </tr>
 
 
             <tr>
                 <td> Account type:</td>
-                   <td><input type="radio" >credit</td> 
-                   <td><input type="radio">debit</td>
+                   <td><input type="radio"  name="des">credit</td> 
+                   <td><input type="radio" name="des">debit</td>
             </tr>
 
             <tr>
