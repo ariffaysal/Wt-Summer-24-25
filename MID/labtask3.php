@@ -9,9 +9,6 @@
         font-size: 30px; 
         text-align: center;
         margin-top: 20px;
-
-
-       
         
 
     }
@@ -66,25 +63,36 @@
         <script>
             alert("Welcome to AIUB Bank Management System");
             console.log("Welcome to AIUB Bank Management System");
+
             document.write("Welcome to AIUB Bank Management System");
             document.body.style.backgroundColor = "lightblue";
             document.body.style.color = "black";
             document.body.style.fontFamily = "'Arial', sans-serif";
+            document.body.style.textAlign = "center";
+
 
 
 
 
             //////////////////////////  txt file   picture
 
-function info(){
-                 console.log("Students Information");
+                 console.log(" Students Information");
                 var name = "Arif";
                 var age = 23;
                 var isStudent = true;
                 console.log("Name:", name);
                 console.log("Age:", age);
                 console.log("Is Student?", isStudent);
-}
+                console.log("\n IF / ELSE");
+
+              if (age >= 18) {
+                console.log(name + " is an adult.");
+                 } else {
+                  console.log(name + " is a minor.");
+                 }
+
+                           
+
 
                 console.log("\n Mathmetical Operations");
                 var a = 10;
@@ -110,19 +118,25 @@ function info(){
     }
 
     greetUser("Arif");
-    greetUser("Foysal");
-
+    greetUser("AIUB Student");
 
 
 
     function showMessage() {
       alert("Information was saved successfully!");
       console.log("Button was clicked.");
+      
     }
 
      function showMessage2() {
-      alert("Information was saved successfully!");
-      console.log("name:" + name);
+
+            let msg= "Information was saved successfully!";
+            msg += "\nName: " + name;
+            msg += "\nAge: " + age; 
+            msg += "\nIs Student? " + isStudent;
+            msg += "\nStudent is :" + age;
+            alert(msg);
+
 
       //console.log("Button was clicked.");
       
@@ -143,15 +157,14 @@ function info(){
 
 
             <br> <br>
+
+
+<p style="center">Information given throw console</p>
               <button onclick="showMessage()">Submit</button>
-            <br> <br>
-           
 
-
-            <br> <br>
-
-            <button onclick="info()"> showinfo</button>
+            <button style="clicked" onclick="showMessage2()"> showinfo</button>
  <h5>Thank you for registering with us!</h5>
+ 
             </table>
         </div>
         
