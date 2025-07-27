@@ -72,9 +72,10 @@
             document.body.style.backgroundColor = "lightblue";
             document.body.style.color = "black";
             document.body.style.fontFamily = "'Arial', sans-serif";
-            document.body.style.textAlign = "center";
-          
+            document.body.style.textAlign = "center";      
             
+          
+
 
         </script>
         
