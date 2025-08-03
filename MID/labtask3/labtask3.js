@@ -4,10 +4,6 @@ function handleSubmit() {
     
     
     var firstName = document.getElementById("firstName").value;
-    if (!firstName) {
-        alert('Please enter your First Name.');
-        return;
-    }
     var lastName = document.getElementById("lastName").value;
     var city = document.getElementById("city").value;
     var state = document.getElementById("state").value;
@@ -45,11 +41,7 @@ function handleSubmit() {
         alert('Contact number should only contain digits.');
         return;
     }
-    alert(`First Name: ${firstName}\nLast Name: ${lastName}\nCity: ${city}\nState: ${state}\nContact: ${contact}`);
-    document.getElementById('Form').reset();
-
-    alert('Form submitted successfully!');
-    alert(firstName + ' ' + lastName + ' from ' + city + ', ' + state + ' with contact number ' + contact + ' has been submitted successfully.');
+    
 
     document.getElementById("Form").reset();
     return false; 
