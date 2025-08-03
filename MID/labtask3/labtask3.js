@@ -2,11 +2,17 @@
 
 function handleSubmit() {
     
-    const firstName = document.getElementById('firstName').value.trim();
-    const lastName = document.getElementById('lastName').value.trim();
-    const city = document.getElementById('city').value.trim();
-    const state = document.getElementById('state').value.trim();
-    const contact = document.getElementById('contact').value.trim();
+    
+    var firstName = document.getElementById("firstName").value;
+    if (!firstName) {
+        alert('Please enter your First Name.');
+        return;
+    }
+    var lastName = document.getElementById("lastName").value;
+    var city = document.getElementById("city").value;
+    var state = document.getElementById("state").value;
+    var contact = document.getElementById("contact").value;
+
     if (!firstName || !lastName || !city || !state || !contact) {
         alert('Please fill in all fields.');
         return;
@@ -44,16 +50,13 @@ function handleSubmit() {
 
     alert('Form submitted successfully!');
     alert(firstName + ' ' + lastName + ' from ' + city + ', ' + state + ' with contact number ' + contact + ' has been submitted successfully.');
+
+    document.getElementById("Form").reset();
+    return false; 
 }
 
 
 
-document.getElementById('Form').addEventListener('submit', handleSubmit);
-document.getElementById('Form').addEventListener('reset', function() {
-    document.getElementById('firstName').value = '';
-    document.getElementById('lastName').value = '';
-    document.getElementById('city').value = '';
-    document.getElementById('state').value = '';
-    document.getElementById('contact').value = '';
-}
-);
+
+
+
