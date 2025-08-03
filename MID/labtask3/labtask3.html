@@ -3,13 +3,114 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Lab Task 3</title>
         <link rel="stylesheet" href="labtask3.css">
-
-    </head>
-
+        <title>Lab Task 3</title>
+</head>
     <body>
+       <form onsubmit="return handleSubmit()">
+
+    <h2> Donor Info:</h2>
+    <table>
+
+        <tr>
+                    <td> First Name: </td><td> <input type="text" id="firstname"></td>
+                </tr>
+                <tr>
+                    <td> Last Name:</td><td> <input type="text" id="lastname"></td>
+                </tr>
+
+                <tr> 
+                    <td> Address : </td><td> <input type="text" id="address"></td>
+                </tr>
+
+                <tr>
+                    <td> City:</td><td> <input type="text" id="city"></td>
+                </tr>
+
+
+                  <tr>
+                    <td> State: </td>
+                        <td>
+                            <select>
+                                <option value="dhk">Dhaka</option>
+                                <option value="ctg">Chittagang</option>
+                                <option value="rjh">Rajshahi</option>
+                                <option value="kh">Khulna</option>
+                                <option value="syl">Sylhet</option>
+                            </select>
+
+                        </td>
+                </tr>
+
+                <tr>
+                    <td> Contact:</td> <td> <input type="text" id="contact"></td>
+                </tr>
+
+            
+                <tr>
+                    <td>Email:</td> <td><input type="email" id="email"></td>
+                </tr>
+                
+
+                <tr>
+                    <td>create password:</td> <td><input type="text" id="password"></td>
+                </tr>
+
+                <tr>
+                    <td> Confirm password:</td> <td> <input type="text" id="confirmpassword"></td>
+                </tr>
+
+
+                <tr>
+                    <td> donation amount:</td>
+                    <td>
+                        <input type="radio" name="des" id="100">$100
+                        <input type="radio" name="des" id="200">$200
+                        <input type="radio" name="des" id="300">$300
+                        <input type="radio" name="des" id="400">$400
+                    </td>
+                </tr>
+
+                <tr>
+                    <td> Other amount:</td> <td><input type="text" id="otheramount"></td>
+                </tr>
+
+                  <tr>
+                    <td>To donation clearity: </td> <td> <input type="checkbox"> I am interested</></td>
+                </tr>
+            </table>
+
+            <table>
+
+
+                <h2> Memorial Donation Information:</h2>
         
+                <tr>
+                    <td> <input type="checkbox"> </td> <td> Please dont send thank you message</td>
+                </tr>
+                <tr>
+                    <td> <input type="checkbox"></td> <td> Its a gift programm</td>
+                </tr>
+
+                <tr>
+                    <td> <input type="checkbox"> </td>  <td> I whould like to gift anonymous</td>
+                </tr>
+
+                <tr>
+                    <td> comments:</td> <td> <textarea id="message"></textarea></td>
+                </tr>
+
+                <tr>
+                    <td> <input type="submit" id="myBtn" value="Submit"></td>
+                    <td> <input type="reset"  id="reset" value="Reset"></td>
+                </tr>
+
+
+
+
+</table>
+        </form>
+
         <script src="labtask3.js"></script>
     </body>
 </html>
