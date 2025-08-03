@@ -4,7 +4,6 @@ function handleSubmit() {
     
     
     var firstName = document.getElementById("firstName").value;
-
     var lastName = document.getElementById("lastName").value;
     var city = document.getElementById("city").value;
     var state = document.getElementById("state").value;
